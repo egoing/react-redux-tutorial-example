@@ -10,6 +10,6 @@ export default class extends Component{
         }.bind(this));
     }
     render(){
-        return <DisplayNumber number={this.state.number}></DisplayNumber>
+        return <DisplayNumber number={this.state.number} unit={this.props.unit}></DisplayNumber>
     }
 }
